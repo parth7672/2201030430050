@@ -1,0 +1,378 @@
+.page-2 {
+  margin: 0;
+  height: 125px;
+  width: 560px;
+  position: relative;
+  font-size: inherit;
+  display: inline-block;
+  font-style: italic;
+  font-weight: 900;
+  font-family: inherit;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.page-2-wrapper {
+  width: 1160px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image-1-icon3 {
+  width: 301px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+}
+.lemon-rice {
+  width: 309px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.lemon-rice-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.lemon-rice-label {
+  height: 333px;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 29px 0;
+  max-width: 100%;
+}
+.image-2-icon1 {
+  height: 276px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.saag-paneer-label {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 22px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.saag-paneer {
+  width: 262px;
+  position: relative;
+  display: inline-block;
+}
+.saag-paneer-label-parent {
+  width: 355px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+  gap: 24px 0;
+  max-width: 100%;
+}
+.image-3-icon1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.daal-tarka,
+.spiced-lentils {
+  margin: 0;
+}
+.daal-tarka-spiced-lentils-container {
+  width: 257px;
+  height: 47px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.image-3-parent {
+  height: 342px;
+  width: 301px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 19px 0;
+}
+.frame-section,
+.lemon-rice-label-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.lemon-rice-label-parent {
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: 0 73px;
+}
+.frame-section {
+  align-self: stretch;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.image-4-icon2 {
+  width: 280px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+}
+.tandoori-tofu {
+  height: 45px;
+  width: 298px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.image-4-group,
+.tofu-frame {
+  display: flex;
+  align-items: flex-start;
+}
+.tofu-frame {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.image-4-group {
+  height: 380px;
+  width: 347px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 71px 0;
+  min-width: 347px;
+  max-width: 100%;
+}
+.image-5-icon1 {
+  width: 298px;
+  height: 264px;
+  position: relative;
+  object-fit: cover;
+}
+.pongal-with-tomato {
+  height: 53px;
+  width: 325px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.dal-tarka-text,
+.image-5-group,
+.pongal-tomato-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.pongal-tomato-text {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-mini);
+  box-sizing: border-box;
+}
+.dal-tarka-text,
+.image-5-group {
+  flex-direction: column;
+}
+.image-5-group {
+  align-self: stretch;
+  gap: 53px 0;
+}
+.dal-tarka-text {
+  flex: 1;
+  min-width: 221px;
+  min-height: 469px;
+}
+.advertisement2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-weight: 200;
+  z-index: 2;
+}
+.last-frame {
+  width: 239px;
+  height: 19px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-lg);
+  box-sizing: border-box;
+}
+.image-6-icon {
+  align-self: stretch;
+  height: 250px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.frame-parent4,
+.last-frame-parent,
+.saag-paneer-frame {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.last-frame-parent {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px 0;
+  min-width: 223px;
+  margin-left: -4px;
+  font-size: 20px;
+}
+.frame-parent4,
+.saag-paneer-frame {
+  flex-direction: row;
+}
+.saag-paneer-frame {
+  flex: 1;
+  align-items: flex-end;
+  min-width: 441px;
+  row-gap: 20px;
+}
+.frame-parent4 {
+  width: 1142px;
+  align-items: flex-start;
+  gap: 0 116px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.frame-main {
+  margin-bottom: -7px;
+  width: 1392px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0;
+  gap: 60px 0;
+  max-width: 102%;
+  flex-shrink: 0;
+}
+.desktop-1,
+.desktop-1-inner,
+.frame-main {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.desktop-1-inner {
+  width: 1389px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  max-width: 100%;
+}
+.desktop-1 {
+  width: 100%;
+  position: relative;
+  background-color: #a15a5a;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 19px 0 0;
+  gap: 16px 0;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .lemon-rice-label-parent {
+    flex-wrap: wrap;
+    gap: 0 73px;
+  }
+  .frame-parent4 {
+    gap: 0 116px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .page-2 {
+    font-size: var(--font-size-32xl);
+  }
+  .image-4-group {
+    flex: 1;
+  }
+  .frame-parent4 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .lemon-rice-label-parent {
+    gap: 0 73px;
+  }
+  .dal-tarka-text {
+    min-height: auto;
+  }
+  .saag-paneer-frame {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .frame-parent4 {
+    gap: 0 116px;
+  }
+  .frame-main {
+    gap: 60px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .page-2 {
+    font-size: var(--font-size-19xl);
+  }
+  .daal-tarka-spiced-lentils-container,
+  .lemon-rice,
+  .saag-paneer,
+  .tandoori-tofu {
+    font-size: var(--font-size-lgi);
+  }
+  .image-4-group {
+    gap: 71px 0;
+    min-width: 100%;
+  }
+  .pongal-with-tomato {
+    font-size: var(--font-size-lgi);
+  }
+  .image-5-group {
+    gap: 53px 0;
+  }
+  .advertisement2 {
+    font-size: 16px;
+  }
+  .last-frame-parent {
+    margin-left: 0;
+  }
+}

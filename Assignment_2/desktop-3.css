@@ -1,0 +1,71 @@
+.mission-life-an-india-led {
+  width: 1217px;
+  height: 136px;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.image-8-icon {
+  height: 602px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.desktop-31,
+.frame-image {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frame-image {
+  width: 633px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 34px;
+  max-width: 100%;
+}
+.desktop-31 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-118xl) var(--padding-xl) var(--padding-39xl)
+    var(--padding-74xl);
+  gap: 91px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .desktop-31 {
+    padding-left: 46px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .mission-life-an-india-led {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .desktop-31 {
+    gap: 91px 0;
+    padding-left: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mission-life-an-india-led {
+    font-size: var(--font-size-5xl);
+  }
+  .desktop-31 {
+    gap: 91px 0;
+  }
+}

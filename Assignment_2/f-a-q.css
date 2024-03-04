@@ -1,0 +1,224 @@
+.indian1,
+.star-group-icon {
+  position: relative;
+  max-width: 100%;
+}
+.indian1 {
+  width: 667px;
+  height: 104px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.star-group-icon {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ad-frame1 {
+  height: 75px;
+  width: 81px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xs);
+  box-sizing: border-box;
+}
+.veg-food {
+  height: 105px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  font-weight: 200;
+  min-width: 377px;
+  max-width: 100%;
+}
+.veg-food-box {
+  width: 726px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 23px;
+  max-width: 100%;
+}
+.star-component {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.faq-inner,
+.indian-parent,
+.star-component {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.indian-parent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.faq-inner {
+  width: 1228px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-6xl);
+  box-sizing: border-box;
+}
+.advertisement1 {
+  width: 218px;
+  height: 17px;
+  position: relative;
+  font-weight: 200;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.image-2-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.framed-image-a {
+  height: 352px;
+  width: 397px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 18px 0;
+  min-width: 397px;
+  max-width: 100%;
+}
+.image-1-icon1,
+.next-page-2 {
+  align-self: stretch;
+  position: relative;
+}
+.image-1-icon1 {
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.next-page-2 {
+  width: 303px;
+  display: inline-block;
+  font-weight: 100;
+  flex-shrink: 0;
+}
+.image-1-parent,
+.next-page-text {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.next-page-text {
+  width: 366px;
+  height: 43px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.image-1-parent {
+  align-self: stretch;
+  height: 750px;
+  flex-direction: column;
+  align-items: center;
+  gap: 216px 0;
+}
+.next-page-indicator-inner {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 429px;
+  min-height: 796px;
+  max-width: 100%;
+  font-size: var(--font-size-29xl);
+}
+.faq,
+.next-page-indicator,
+.next-page-indicator-inner {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.next-page-indicator {
+  width: 1132px;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: 0 55px;
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+}
+.faq {
+  width: 100%;
+  position: relative;
+  background-color: #936161;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 19px 0;
+  letter-spacing: normal;
+  font-size: var(--font-size-77xl);
+}
+@media screen and (max-width: 900px) {
+  .indian1,
+  .veg-food {
+    font-size: var(--font-size-29xl);
+  }
+  .framed-image-a {
+    flex: 1;
+  }
+  .next-page-2 {
+    font-size: var(--font-size-19xl);
+  }
+  .next-page-indicator-inner {
+    min-height: auto;
+  }
+  .next-page-indicator {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 700px) {
+  .veg-food {
+    min-width: 100%;
+  }
+  .image-1-parent {
+    gap: 216px 0;
+  }
+  .next-page-indicator-inner {
+    min-width: 100%;
+  }
+  .next-page-indicator {
+    gap: 0 55px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .indian1,
+  .veg-food {
+    font-size: var(--font-size-10xl);
+  }
+  .advertisement1 {
+    font-size: var(--font-size-lgi);
+  }
+  .framed-image-a {
+    min-width: 100%;
+  }
+  .next-page-2 {
+    font-size: var(--font-size-10xl);
+  }
+  .image-1-parent {
+    gap: 216px 0;
+  }
+}

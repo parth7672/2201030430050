@@ -1,0 +1,275 @@
+.types-of-cuisines {
+  height: 93px;
+  width: 953px;
+  position: relative;
+  display: inline-block;
+  font-weight: 200;
+  flex-shrink: 0;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.types-of-cuisines-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.select-the-cuisine {
+  height: 147px;
+  width: 554px;
+  position: relative;
+  font-weight: 100;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.star-frame-icon {
+  height: 40px;
+  width: 66px;
+  position: absolute;
+  margin: 0 !important;
+  top: 22px;
+  left: 0;
+}
+.select-the-cuisine-parent {
+  width: 637px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  max-width: 100%;
+}
+.sub-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 11px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.american,
+.blank-line,
+.blank-line1,
+.blank-line2,
+.blank-line3,
+.blank-line4,
+.chinese,
+.indian,
+.italian,
+.japanese,
+.mexican {
+  margin: 0;
+}
+.indian-mexican-american-container {
+  height: 360px;
+  flex: 1;
+  position: relative;
+  font-weight: 100;
+  display: inline-block;
+  min-width: 165px;
+}
+.rectangle-input,
+.vector-frame-child {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro-100);
+  height: 57px;
+  position: relative;
+  min-width: 71px;
+}
+.rectangle-input {
+  align-self: stretch;
+}
+.vector-frame-child {
+  flex: 1;
+}
+.vector-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+}
+.image-frame-child {
+  height: 58px;
+  width: 117px;
+  position: relative;
+}
+.image-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 var(--padding-12xs);
+}
+.frame-child2,
+.frame-child3,
+.frame-child4 {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro-100);
+  align-self: stretch;
+  height: 60px;
+  position: relative;
+  min-width: 71px;
+}
+.frame-child3,
+.frame-child4 {
+  height: 51px;
+}
+.frame-child4 {
+  height: 59px;
+}
+.rectangle-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 58px 0;
+}
+.frame-wrapper1,
+.indian-mexican-american-chines-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper1 {
+  width: 120px;
+  flex-direction: column;
+  padding: 8px 0 0;
+  box-sizing: border-box;
+  min-width: 120px;
+}
+.indian-mexican-american-chines-parent {
+  width: 428px;
+  flex-direction: row;
+  gap: 0 40px;
+  max-width: 100%;
+}
+.advertisement {
+  height: 34px;
+  flex: 1;
+  position: relative;
+  font-weight: 200;
+  display: inline-block;
+  z-index: 1;
+}
+.ad-frame {
+  width: 355px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 27px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image-1-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.ad-frame-parent,
+.frame-wrapper2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.ad-frame-parent {
+  align-self: stretch;
+  height: 401px;
+  align-items: flex-end;
+}
+.frame-wrapper2 {
+  height: 446px;
+  width: 462px;
+  align-items: flex-start;
+  font-size: var(--font-size-5xl);
+}
+.frame-parent1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.main-frame,
+.main-frame-inner {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.main-frame-inner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 38px 0 var(--padding-mini);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.main-frame {
+  width: 100%;
+  position: relative;
+  background-color: #726262;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-mid) 32px 95px var(--padding-7xl);
+  gap: 21px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1025px) {
+  .frame-parent1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 975px) {
+  .select-the-cuisine {
+    font-size: var(--font-size-32xl);
+  }
+  .indian-mexican-american-container {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .select-the-cuisine {
+    font-size: var(--font-size-19xl);
+  }
+  .indian-mexican-american-container {
+    font-size: var(--font-size-10xl);
+  }
+  .frame-wrapper1 {
+    flex: 1;
+  }
+  .indian-mexican-american-chines-parent {
+    flex-wrap: wrap;
+    gap: 0 40px;
+  }
+  .advertisement {
+    font-size: var(--font-size-lgi);
+  }
+}
